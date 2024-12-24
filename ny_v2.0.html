@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым Годом!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Контейнер с содержимым страницы -->
+    <div class="container" id="animatedContainer">
+        <h1>С наступающим Новым Годом!</h1>
+        <h1>До наступления осталось:</h1>
+        <div class="timer" id="timer">00:00:00</div>
+        <div class="celebration-message hidden" id="celebrationMessage">С Новым Годом!</div>
+        <div class="tree-decorations" id="treeDecorations"></div>
+    </div>
+
+    <!-- Декоративная рамка с маленькими елочками по периметру -->
+    <div class="ornamental-frame">
+        <div class="ornament ornament-top"></div>
+        <div class="ornament ornament-right"></div>
+        <div class="ornament ornament-bottom"></div>
+        <div class="ornament ornament-left"></div>
+    </div>
+
+    <!-- Элемент Canvas для анимации снежинок -->
+    <canvas id="snowCanvas"></canvas>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
